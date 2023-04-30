@@ -6,12 +6,11 @@ export const sequelize = new Sequelize('nodeexpress','postgres','1234',{
     dialect: 'postgres'
 })
 
-import React, { memo } from 'react'
+/*import React, { memo } from 'react'
 
 const database = memo(() => {
   return (
     <div>database</div>
   )
-})
+})*/
 
-export default database
